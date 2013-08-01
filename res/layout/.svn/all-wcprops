@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/android-notepad/!svn/ver/16/trunk/res/layout
+END
+note_edit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/android-notepad/!svn/ver/18/trunk/res/layout/note_edit.xml
+END
+title.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/android-notepad/!svn/ver/16/trunk/res/layout/title.xml
+END
+notes_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/android-notepad/!svn/ver/18/trunk/res/layout/notes_list.xml
+END
+note_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/android-notepad/!svn/ver/16/trunk/res/layout/note_row.xml
+END
+note_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/android-notepad/!svn/ver/18/trunk/res/layout/note_view.xml
+END

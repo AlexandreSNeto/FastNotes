@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@drawable/background_repeat"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView 
+		style="@style/Shadow.Light.ViewTitle" 
+		android:id="@+id/title" 
+	  	android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_weight="0"/>
+		
+	<ImageView
+	    style="@style/ViewSeparator"
+	    android:src="@android:drawable/divider_horizontal_bright"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" />
+	
+	<TextView 
+		style="@style/ViewBody"
+		android:id="@+id/body" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" />
+		
+	<ImageView
+	    style="@style/ViewSeparator"
+	    android:src="@android:drawable/divider_horizontal_bright"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" />
+	
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:padding="2dip" 
+		android:layout_weight="0"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView 
+			style="@style/ViewLabel"
+			android:text="@string/creation_date"
+		  	android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="0"/>
+		<TextView
+			style="@style/ViewDate"
+			android:id="@+id/creation_date" 
+		  	android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="0"/>
+	</LinearLayout>
+
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:padding="2dip" 
+		android:layout_weight="0"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView 
+			style="@style/ViewLabel"
+			android:text="@string/lastupdatedate_date"
+		  	android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="0"/>
+		<TextView 
+			style="@style/ViewDate"
+			android:id="@+id/lastupdate_date"
+		  	android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="0"/>
+	</LinearLayout>
+	
+</LinearLayout>

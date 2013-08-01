@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+	<color name="white">#FFFFFF</color>
+	<color name="lightGray">#EEEEEE</color>
+	
+    <color name="appBackgroundColor">#07283D</color>
+    <color name="lightBackgroundColor">#6607283D</color>
+    
+    <color name="titleBackgroundColor">#4789B3</color>
+    <color name="titleTextColor">#AED4FE</color>
+    
+    <color name="labelTextColor">#FFFFFF</color>
+    
+    <color name="shadowLightColor">#AAAED4FE</color>
+    <color name="shadowDarkColor">#333333</color>
+</resources>

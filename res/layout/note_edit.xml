@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/background_repeat"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="@color/labelTextColor"
+		android:textSize="18sp"
+		android:text="@string/title" />
+	<EditText 
+		android:id="@+id/title" 
+		android:maxLength="36"
+		android:capitalize="sentences"
+	  	android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_weight="0"/>
+	
+	<TextView 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textColor="@color/labelTextColor"
+		android:textSize="18sp"
+		android:text="@string/body" />
+	<EditText 
+		android:id="@+id/body" 
+		android:capitalize="sentences"
+		android:gravity="top"
+		android:scrollbars="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"/>
+	
+	<Button 
+		android:id="@+id/confirm" 
+	  	android:text="@string/confirm"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:drawableLeft="@drawable/ic_btn_save" />
+
+</LinearLayout>

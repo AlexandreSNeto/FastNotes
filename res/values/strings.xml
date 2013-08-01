@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FastNotes</string>
+    
+    <string name="no_notes">Nenhuma nota cadastrada.</string>
+    <string name="select_one_note">Nenhuma nota selecionada.</string>
+        
+    <string name="menu_insert">Nova</string>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_exit">Sair</string>
+    
+    <string name="ctx_menu_title">Operações</string>
+    <string name="ctx_menu_edit">Editar</string>
+    <string name="ctx_menu_delete">Excluir</string>
+    <string name="ctx_menu_share">Compartilhar</string>
+            
+    <string name="title">Título</string>
+    <string name="body">Nota</string>
+    <string name="creation_date">Criado em:</string>
+    <string name="lastupdatedate_date">Modificado em:</string>
+    
+    <string name="confirm">Salvar</string>
+    
+    <string name="about">Aplicativo criado por Alexandre Silveira - alexandre.sneto@gmail.com - http://asneto.eti.br</string>
+</resources>

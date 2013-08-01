@@ -1,0 +1,44 @@
+10
+
+dir
+15
+https://subversion.assembla.com/svn/android-notepad/trunk/gen/br/eti/asneto/android
+https://subversion.assembla.com/svn/android-notepad
+
+
+
+2011-05-24T03:05:23.978437Z
+6
+asneto
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7e1470a1-0eeb-458b-ba3a-50d80c32b9eb
+
+
+
+
+
+
+
+
+((conflict notepad dir update edited deleted (version https://subversion.assembla.com/svn/android-notepad 1 4 trunk/gen/br/eti/asneto/android/notepad 0 ) (version https://subversion.assembla.com/svn/android-notepad 2 15 trunk/gen/br/eti/asneto/android/notepad dir)))
+
+notepad
+dir
+
+
+
+delete
+

@@ -1,0 +1,25 @@
+## BUGS ##
+
+2011-05-25 - Quando o swype abre as dicas, da erro no programa
+
+## FEATURES ##
+
+2011-05-25 - Alterar o layout da lista, adicionando um fundo na ListView
+2011-05-25 - Modificar a tela de visualização de nota
+2011-05-25 - Adicionar recurso de edição e exclusão na tela de visualização
+2011-05-29 - Arrumar os estilos em Styles para melhorar o reaproveitamento
+2011-05-29 - Melhorar a cor de fundo do titulo, usando um degradê.
+2011-06-05 - Na listagem, ajustar o ícone About
+2011-06-06 - Na tela de visualização, adicionar recurso para compartilhar uma nota. Email, SMS, Twitter, Facebook, DropBox, TXT.
+
+- Na listagem, adicionar recurso para ordenar
+- Melhorar a tela de visualização, com uma textura no fundo, blocos visuais para o titulo, corpo e datas
+- Melhorar a tela de criação, com uma textura no fundo, ajustes nos itens do formulário, Labels maiores e mais espaçadas
+- Na visualização, melhorar o ícone de edição
+
+## FUTURO ##
+
+- Tradução para Inglês e Espanhol
+- Criar opções: Ordenação padrão
+- Modificar o layout inteiro da aplicação para usar ActionBar
+- Criar um widget mostrando as últimas 2 ou 3 notas com visualização rápida do seu conteúdo 

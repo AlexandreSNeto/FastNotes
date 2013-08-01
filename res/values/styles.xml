@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <style name="WindowTitleBackground">     
+        <item name="android:background">@drawable/title_background_gradient</item>                   
+    </style>
+    
+    <style name="Shadow.Dark.WindowTitle">     
+        <item name="android:paddingLeft">2dip</item>                   
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/titleTextColor</item>
+    </style>    
+	
+    <!-- ## Shadow ## -->
+    <style name="Shadow">
+   		<item name="android:shadowDx">1.2</item>   
+        <item name="android:shadowDy">1.2</item>   
+        <item name="android:shadowRadius">1.2</item> 
+    </style>
+    <style name="Shadow.Light">
+        <item name="android:shadowColor">@color/shadowLightColor</item>
+    </style>
+    <style name="Shadow.Dark">     
+        <item name="android:shadowColor">@color/shadowDarkColor</item>
+    </style>    
+    
+    <!-- ## notes_list ## -->
+    <style name="Shadow.Light.ListTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="ListBodyPreview">     
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="ListDates">     
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+	<!-- ## note_view ## -->
+    <style name="ViewSeparator">     
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:paddingLeft">5dp</item>
+	    <item name="android:paddingRight">5dp</item>
+	    <item name="android:paddingBottom">2dp</item>
+	    <item name="android:paddingTop">2dp</item>
+    </style>
+    <style name="Shadow.Light.ViewTitle">     
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">4dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/labelTextColor</item>
+    </style>
+    <style name="ViewBody">     
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/lightGray</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:padding">6dip</item>
+        <item name="android:gravity">top</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+    <style name="ViewLabel">     
+        <item name="android:textSize">10sp</item>
+        <item name="android:paddingRight">4dip</item>
+    </style>    
+    <style name="ViewDate">     
+        <item name="android:textSize">10sp</item>
+    </style>    
+
+</resources>
